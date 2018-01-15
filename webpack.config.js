@@ -24,6 +24,7 @@ module.exports = {
     devtool: 'cheap-module-eval-source-map',
     devServer: {
         contentBase: path.join(__dirname, 'public'),
+        // allows the usage of exact route setup
         historyApiFallback: true
     }
 };
